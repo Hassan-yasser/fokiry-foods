@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/input.css">
+    <title>Document</title>
+</head>
+<body class="dark:bg-black min-h-[100vh]">
+    <div class="loadingg  flex justify-center items-center">
+        <span class="loader"></span>
+    </div> 
+    <header>
+        <nav class=" bg-slate-200 py-4 fixed top-0 left-0 right-0 z-50 dark:bg-gray-700">
+            <div class="container navCon flex justify-between  items-center  w-[90%] mx-auto text-white ">
+                <div class="flex justify-between items-center gap-2 me-1 w-[90%] ">
+                    <h1 class="text-3xl cursor-pointer text-orange-500 font-black hover:text-black group transition-colors duration-300 dark:text-white dark:hover:text-gray-300"><a href="index.html">Re<span class="transition-colors duration-300 dark:text-gray-500 text-black group-hover:text-orange-500">s</span>turant</a></h1>
+                    <div class="relative space-small">
+                        <label ><i class="fa-solid fa-search text-xl absolute dark:text-gray-500 text-orange-500 right-[10px] top-2"></i></label>
+                        <input type="text" id="search" class="rounded-full w-full text-orange-500 ps-2 bg-white py-2 shadow-2xl ">
+                    </div>
+                </div>
+                <button><input type="checkbox" class="toggle bg-gray-200 hover:bg-white duration-500 transition-all" checked="checked" /></button>
+            </div>
+        </nav>
+    </header>
+    <main class="">
+        <section class=" mainData hideToArrive sm:px-10 lg:px-10 hidden">
+            <div class="container DisplayedData grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12   lg:translate-x-0   gap-4 xl:grid-cols-12  pt-24 ">
+
+            </div>
+        </section>
+        <section class="pt-6 details hidden h-[100vh]">
+            <div class="container gap-4 containerDetails grid sm:grid-cols-12 md:grid-cols-12 lg:grid-cols-12 px-5">
+
+            </div>
+        </section>
+    </main>
+    
+
+
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
